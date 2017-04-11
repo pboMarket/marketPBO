@@ -4,6 +4,7 @@ package com.company;
  * Created by yolandasham on 11/04/2017.
  */
 public class Suplier {
+    // atribut
     String idSuplier;
     String namaSuplier;
     String alamatSuplier;
