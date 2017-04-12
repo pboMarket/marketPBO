@@ -13,7 +13,7 @@ public class Jenis {
         this.nama_jenis = nama_jenis;
     }
 
-    public void cetak()
+    public void print()
     {
         System.out.println("ID JENIS : "+id_jenis);
         System.out.println("ID Golongan : "+id_golongan);
