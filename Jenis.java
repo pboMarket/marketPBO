@@ -20,4 +20,8 @@ public class Jenis {
         System.out.println("Nama Jenis : "+nama_jenis);
     }
 
+    public static void main(String[] args){
+        Jenis jenis = new Jenis(1,1,"Makanan");
+        jenis.print();
+    }
 }
