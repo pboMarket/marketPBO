@@ -21,7 +21,7 @@ public class Jenis {
     }
 
     public static void main(String[] args){
-        Jenis jenis = new Jenis(1,1,"Makanan");
+        Jenis jenis = new Jenis(1,1,"Biskuit");
         jenis.print();
     }
 }
