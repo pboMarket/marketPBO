@@ -2,14 +2,14 @@
  * Created by ASUS PC on 11/04/2017.
  */
 public class barang {
-    public String idBarang;
-    public String idProduk;
+    public int idBarang;
+    public int idProduk;
     public String namaProduk;
     public String satuan;
     public int hargaJual;
     public int hargaBeli;
 
-    public barang(String idBarang, String idProduk, String namaProduk, String satuan, int hargaJual, int hargaBeli){
+    public barang(int idBarang, int idProduk, String namaProduk, String satuan, int hargaJual, int hargaBeli){
         this.idBarang = idBarang;
         this.idProduk = idProduk;
         this.namaProduk = namaProduk;
@@ -28,7 +28,7 @@ public class barang {
     }
 
     public  static void main(String[] args){
-        barang brg = new barang("0001","0001", "Indomie","Dus",120000,100000);
+        barang brg = new barang(1,1, "Biskuat Coklat","Dus",120000,100000);
 
         brg.print_barang();
     }
