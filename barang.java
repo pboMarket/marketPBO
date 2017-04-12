@@ -18,7 +18,7 @@ public class barang {
         this.hargaBeli = hargaBeli;
     }
 
-    public void print_barang(){
+    public void print(){
         System.out.println("Id Barang : "+idBarang);
         System.out.println("Id Produk : "+idProduk);
         System.out.println("Nama Produk : "+namaProduk);
@@ -29,8 +29,7 @@ public class barang {
 
     public  static void main(String[] args){
         barang brg = new barang(1,1, "Biskuat Coklat","Dus",120000,100000);
-
-        brg.print_barang();
+        brg.print();
     }
 
 }
