@@ -13,15 +13,17 @@ public class Jenis {
         this.nama_jenis = nama_jenis;
     }
 
-    public void print()
+    public void cetak()
     {
         System.out.println("ID JENIS : "+id_jenis);
         System.out.println("ID Golongan : "+id_golongan);
         System.out.println("Nama Jenis : "+nama_jenis);
     }
 
-    public static void main(String[] args){
-        Jenis jenis = new Jenis(1,1,"Biskuit");
-        jenis.print();
+    public static void main (String[] args)
+    {
+        Jenis jns = new Jenis(1, 1, "Makanan");
+        jns.cetak();
     }
+
 }
